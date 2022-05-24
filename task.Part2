@@ -1,0 +1,18 @@
+﻿using System;
+
+namespace ConsoleApp17
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Person person = new Person(12)
+            {
+                Name = "Aysun",
+                Surname = "Huseynli",
+            };
+            Console.WriteLine(person.IsAdult);
+        }
+        
+    }
+}
